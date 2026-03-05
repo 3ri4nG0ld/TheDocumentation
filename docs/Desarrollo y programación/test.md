@@ -6,6 +6,12 @@
     "packages": ["pandas"]
 }
 </py-config>
+<py-env>
+- matplotlib
+- numpy
+- pandas
+</py-env>
+
 ```{.py .pyscript}
 import pandas as pd
 
