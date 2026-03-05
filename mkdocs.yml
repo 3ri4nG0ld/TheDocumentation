@@ -4,7 +4,9 @@ site_url: https://3ri4ng0ld.github.io/docs
 theme:
   font:
     code: JetBrains Mono
-  
+  features:
+    - content.code.copy
+
   name: material
   palette: 
 
@@ -31,5 +33,17 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
+# syntax highlighting (https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#configuration)
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
 plugins:
+  - search:
+      lang: es
   - tags
