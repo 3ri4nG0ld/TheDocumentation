@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 mkdocs = "*"
 mkdocs-pyscript = "0.2.0"
+pandas = "*"
 
 [dev-packages]
 
