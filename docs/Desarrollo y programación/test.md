@@ -1,9 +1,9 @@
 # Prueba
 
 ## Prueba de código ejecutable
-<py-config>
-    packages = ["matplotlib", "pandas"]
-</py-config>
+<py-env>
+- pandas
+</py-env>
 ```{.py .pyscript}
 import pandas as pd
 
