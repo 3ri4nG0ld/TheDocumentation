@@ -1,1 +1,9 @@
-# Esto es otra prueba
+---
+tags:
+  - test
+  - Markdown
+  - CSS
+---
+
+# test page
+...
