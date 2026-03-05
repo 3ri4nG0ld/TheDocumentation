@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: La documentación
 site_url: https://3ri4ng0ld.github.io/docs
 
 theme:
@@ -59,3 +59,5 @@ plugins:
   - search:
       lang: es
   - tags
+  - mkdocs-pyscript:
+        selective: true
