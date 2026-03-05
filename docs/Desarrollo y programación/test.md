@@ -1,6 +1,7 @@
 # Prueba
 
 ## Prueba de código ejecutable
+<script>let micropip = pyodide.pyimport(pandas);</script>
 ```{.py .pyscript}
 import pandas as pd
 
@@ -11,7 +12,17 @@ print(pd)
 print("Hello, world!")
 ```
 
-# Prueba de código sin ejecutable
+## Prueba de código sin ejecutable
 ```python
 print("Hello, world!")
+```
+
+## Prueba de código sin ejecutable 2
+```python
+import pyodide_js
+await pyodide_js.loadPackage('numpy')
+
+import numpy as np
+
+print(np.random.randn(10, 4))
 ```
