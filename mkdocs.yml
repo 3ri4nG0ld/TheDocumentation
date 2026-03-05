@@ -8,6 +8,7 @@ theme:
     - content.code.copy
 
   name: material
+  custom_dir: overrides
   palette: 
 
     # Palette toggle for automatic mode
@@ -38,6 +39,8 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/3ri4nG0ld/docs
+
+
 
 extra_css:
   - stylesheets/extra.css

@@ -12,6 +12,7 @@ El objetivo es simplificar mucha de la documentación que hay en la red, y hacer
 Actualmente esta documentación esta organizada en distintas secciones, cada una dedicada a un tema o área especifica, aunque es posible que en algunas de las secciones se traten temas relacionados con otras áreas, ya que muchas veces los conceptos y procedimientos pueden ser aplicados en distintos contextos. 
 
 Actualmente las secciones principales que existen las puedes encontrar en el menú lateral, y son las siguientes: 
+
 - **Desarrollo y programación**:  
 En esta sección se pueden encontrar tutoriales, guías y ejemplos relacionados con el desarrollo de software, incluyendo lenguajes de programación, frameworks, herramientas de desarrollo, etc...
 
