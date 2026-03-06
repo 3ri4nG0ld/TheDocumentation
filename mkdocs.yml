@@ -1,11 +1,17 @@
 site_name: La documentación
 site_url: https://3ri4ng0ld.github.io/docs
+repo_url: https://github.com/3ri4ng0ld/docs
+repo_name: GitHub
+edit_uri: blob/main/docs/
+
 
 theme:
+  language: es 
   font:
     code: JetBrains Mono
   features:
     - content.code.copy
+    - navigation.indexes # Permite añadir un Index.md a cada carpeta (para que dicho Index)
 
   name: material
   custom_dir: overrides
@@ -36,9 +42,18 @@ theme:
         name: Switch to system preference
 
 extra:
+  #alternate:
+  #- name: English
+  #  link: /en/ 
+  #  lang: en
+  #- name: Español
+  #  link: /es/
+  #  lang: es
+
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/3ri4nG0ld/docs
+  
 
 
 
@@ -59,6 +74,9 @@ markdown_extensions:
         class: python
         validator: !!python/name:markdown_exec.validator
         format: !!python/name:markdown_exec.formatter
+  - toc:
+      permalink: "#"
+
 
 plugins:
   - search:
@@ -67,6 +85,6 @@ plugins:
   # https://github.com/danielfrg/mkdocs-jupyter
   - mkdocs-jupyter:
       include: ["*.ipynb"]
-      execute: true
+      execute: false
       include_source: true
   - markdown-exec
